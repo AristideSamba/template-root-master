@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio développeur web et applications"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDW portfolio - développeur</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">études</a></li>
+      <li><a href="formation.html">formations</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+    <main>
+      <h1><span aria-hidden="true">🧑‍💻</span> EDW portfolio - développeur</h1>
+
+      <section>
+        <h2>Contact</h2>
+        <form action="" oninput="count.value = text.value.length" method="post">
+          <label for="nom">Votre Nom</label>
+          <input
+            type="text"
+            name="nom"
+            id="nom"
+            placeholder="nom"
+            required
+            aria-required="true"
+            autofocus="true"
+          />
+
+          <label for="prenom">Votre Prénom</label>
+          <input
+            type="text"
+            name="nom"
+            id="prenom"
+            placeholder="prénom"
+            required
+            aria-required="true"
+          />
+
+          <label for="prenom">Votre Mail</label>
+          <input
+            type="email"
+            name="mail"
+            id="prenom"
+            placeholder="mail"
+            required
+            aria-required="true"
+          />
+          <label for="text">Votre message</label>
+          <textarea
+            name="commentaire"
+            id="text"
+            cols="30"
+            rows="10"
+            maxlength="30"
+          ></textarea>
+          <input type="submit" value="Envoyer" />
+          <p>
+            <em>Nombre de caractères autorisés</em>: 0
+            <output name="count" class="counter"></output>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; - EDW - 2024<br />
+        <img src="./asset/giusmili-lead-developer.svg" alt="badge">
+      </p>
+    </footer>
+  </body>
+</html>

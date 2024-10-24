@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i");
+/* reset */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font: 1.6rem "Open Sans", sans-serif;
+  background: #fafafa;
+  margin: 0;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  min-height: 100svh;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+p {
+  font-weight: 100;
+  margin: 0;
+}
+input {
+  font-size: inherit;
+}
+
+/* theme principal */
+main {
+  width: 102.4rem;
+  margin: 0 auto;
+  
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  background: #222;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+p {
+  line-height: 2.2rem;
+}
+
+/*thème********/
+
+ul li {
+  display: inline-block;
+  font-size: 1.6rem;
+  width: calc(30% / 3);
+  text-align: center;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+ul li > a {
+  color: #fafafa;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+ul li > a:hover {
+  background: #ccc;
+}
+h1 {
+  text-align: center;
+  line-height: 4.5rem;
+  margin: 3rem 0;
+}
+.warning {
+  width: 40rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  background: #d50000;
+  color: #fafafa;
+}
+section p {
+  padding: 1rem;
+  background: #fafafa;
+}
+section h2,
+div h2 {
+  background: #2962ff;
+  padding: 1rem;
+  line-height: 3.5rem;
+  color: #fafafa;
+  border-radius: .4rem;
+}
+.grid-img > ul {
+  background: #fafafa;
+  padding: 0.5rem;
+}
+.grid-img > ul li:nth-child(2) {
+  margin: 0 0.5rem;
+}
+.grid-img > ul li {
+  width: calc(100% / 3 - 0.4rem);
+}
+.grid-img > ul li img {
+  display: block;
+  width: 100%;
+}
+
+.grid-icone > ul {
+  text-align: center;
+  background: transparent;
+  line-height: normal;
+  margin-top: 1rem;
+}
+.grid-icone > ul li {
+  width: calc(50% / 4);
+  line-height: 50%;
+}
+
+section ul {
+  background: #e1f5fe;
+}
+section ul li {
+  display: block;
+  text-align: left;
+  padding: 1rem;
+  width: auto;
+}
+section ul li:nth-child(2n + 1) {
+  background: #b3e5fc;
+}
+section input,
+section label,
+section textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: inherit;
+}
+section input {
+  border: solid 1px transparent;
+  border-bottom-color: #ccc;
+  background: #fafafa;
+}
+section [placeholder] {
+  font-size: inherit;
+  font-style: italic;
+  transition-duration: 0.5s;
+}
+section [placeholder]:focus {
+  background: #ffcdd2;
+}
+section textarea {
+  border: solid 1px #ccc;
+  resize: none;
+}
+section input[type="submit"] {
+  border: 0;
+  margin-top: 5px;
+  font-size: inherit;
+  width: 100px;
+  background: #558b2f;
+  color: #fafafa;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+section input[type="submit"]:hover {
+  filter: brightness(0.7);
+}
+.fa-frown {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+footer {
+  line-height: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
