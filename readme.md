@@ -27,4 +27,6 @@
 +-------------------------------+
 ```
 
+[Publication de la page](https://aristidesamba.github.io/template-root-master/)
+
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com) ![cover](./asset/language-php.svg)
